@@ -11,6 +11,9 @@ export function createApp() {
   expressLoader(app);
 
   app.get("/health", (req, res) => res.json({ ok: true }));
+  app.get("/health", (req, res) => res.json({ ok: true }));
+  app.get("/health", (req, res) => res.json({ ok: true }));
+  app.get("/health", (req, res) => res.json({ ok: true }));
 
   app.use("/api/v1", apiRouter);
 
