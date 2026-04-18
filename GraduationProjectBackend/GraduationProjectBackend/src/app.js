@@ -7,7 +7,13 @@ import { errorHandler } from "./middlewares/error.middleware.js";
 
 export function createApp() {
   const app = express();
-
+export function createApp() {
+  const app = express();export function createApp() {
+  const app = express();export function createApp() {
+  const app = express();export function createApp() {
+  const app = express();export function createApp() {
+  const app = express();export function createApp() {
+  const app = express();
   expressLoader(app);
 
   app.get("/health", (req, res) => res.json({ ok: true }));
